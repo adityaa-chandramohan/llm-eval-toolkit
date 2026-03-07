@@ -15,30 +15,7 @@
 # from typing import List, Dict
 # from collections import Counter
 
-# def lcs_length(seq1: List[str], seq2: List[str]) -> int:
-#     """Compute length of Longest Common Subsequence"""
-#     # Your code here — use dynamic programming
-#     pass
 
-# def rouge_n(candidate: str, reference: str, n: int) -> Dict[str, float]:
-#     """Compute ROUGE-N precision, recall, F1"""
-#     # Your code here
-#     pass
-
-# def rouge_l(candidate: str, reference: str) -> Dict[str, float]:
-#     """Compute ROUGE-L using LCS"""
-#     # Your code here
-#     pass
-
-# def rouge_score(candidate: str, reference: str) -> Dict[str, Dict[str, float]]:
-#     """Return all ROUGE scores"""
-#     # Your code here
-#     pass
-
-# def rouge_summary(pairs: List[tuple]) -> Dict[str, Dict[str, float]]:
-#     """Average ROUGE scores across (candidate, reference) corpus"""
-#     # Your code here
-#     pass
 
 from typing import List, Dict
 from collections import Counter
