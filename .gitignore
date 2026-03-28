@@ -9,3 +9,4 @@ reports/allure-report/
 dist/
 .venv/
 venv/
+.DS_Store
