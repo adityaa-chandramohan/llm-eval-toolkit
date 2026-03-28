@@ -1,0 +1,31 @@
+[
+  {
+    "question": "What is the refund policy for premium subscriptions?",
+    "answer": "Premium subscribers are eligible for a full refund within 30 days of purchase if they have not used more than 10% of their allocated credits.",
+    "contexts": [
+      "Our refund policy allows premium subscribers to request a full refund within 30 days of their initial purchase date.",
+      "Refunds are only applicable if the subscriber has consumed less than 10% of their allocated monthly credits.",
+      "Refund requests must be submitted through the customer support portal."
+    ],
+    "ground_truth": "Premium subscribers can get a full refund within 30 days if they have used less than 10% of their credits."
+  },
+  {
+    "question": "How does the AI model handle personally identifiable information?",
+    "answer": "The AI model processes PII data through encrypted channels and does not store any user-identifiable information after the session ends.",
+    "contexts": [
+      "All data transmitted to the AI model is encrypted using AES-256 encryption.",
+      "The system is designed with a zero-retention policy — no PII is stored beyond the active session.",
+      "Compliance with GDPR and CCPA is maintained through automated data purging at session termination."
+    ],
+    "ground_truth": "PII is encrypted during processing and not retained after the session, in compliance with GDPR and CCPA."
+  },
+  {
+    "question": "What are the SLA commitments for enterprise customers?",
+    "answer": "Enterprise customers are guaranteed 99.9% uptime with a maximum response time of 200ms for API calls.",
+    "contexts": [
+      "Enterprise SLA guarantees 99.9% uptime measured monthly.",
+      "API response time is guaranteed to be under 500ms at the 95th percentile."
+    ],
+    "ground_truth": "Enterprise SLA guarantees 99.9% uptime. API response time is guaranteed under 500ms at p95."
+  }
+]
